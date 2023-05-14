@@ -4,6 +4,9 @@ font-ta{
 
     
 }
+.text-uppercase{
+    text-transform: capitalize;
+}
 .color-anim{
     animation: color-change 10s infinite;
 }

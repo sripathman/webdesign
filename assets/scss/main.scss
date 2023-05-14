@@ -7,11 +7,24 @@
 // Base
 @import "./base/reset";
 @import "./base/global";
-// utilities
-@import "./utilities/animations";
+
 
 // Components
 @import "./components/buttons";
 
+@import "./components/badges";
+
 // Layout
 @import "./layout/header";
+@import "./layout/background_elements";
+
+// utilities
+@import "./utilities/animations";
+@import "./utilities/spacing";
+
+
+// pages
+@import "./pages/home";
+.mt-5{
+    margin-top: 5rem;
+}
